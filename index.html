@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>
+
+<h5>
+  TESTE
+</h5>
+
+ <link href="style.css" rel="stylesheet" type="text/css">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+<script >
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").hide();
+    });
+});
+
+jQuery(document).ready(function($) {
+
+var pp = 0;
+var salvo = 0;
+var die = 0;
+var save = 0;
+var salvo = 0;
+var entrada = 0;
+var flag = 1;
+$("#tela").val('0');
+
+
+
+
+
+$("#clear").click(function() {
+    alert ("CLEAR");
+    $("#tela").val('0');
+	pp = 0 ;
+	save = 0;
+	die = 0;
+	
+	
+  });
+
+$("#sub").click(function() {
+  $("#tela").val('900');
+  pp = $("#tela").val();
+  });
+
+$("#soma").click(function() {
+
+	
+	
+	salvo =  $("#tela").val();
+
+
+  
+  });
+
+$("#divide").click(function() {
+  $("#tela").val(salvo);
+  });
+
+$("#multiplica").click(function() {
+  $("#tela").val('600');
+  });
+
+
+$("#igual").click(function() {
+    alert(pp);
+    
+  });
+
+
+
+
+$(".digit").click(function() {
+	
+	 save = $(this).val(); 
+	
+	if (save == 1) { $("#tela").val(pp + 1);
+		
+	pp =	$("#tela").val();
+	
+	
+
+
+
+	}
+	else if (save == 2) { $("#tela").val(pp + 2);
+	pp =	$("#tela").val();
+	}
+	else if (save == 3) { $("#tela").val(pp + 3);
+	pp =	$("#tela").val();
+	}
+	else if (save == 4) { $("#tela").val(pp + 4);
+	pp =	$("#tela").val();
+	}
+	else if (save == 5) { $("#tela").val(pp + 5);
+	pp =	$("#tela").val();
+	}
+	else if (save == 6) { $("#tela").val(pp + 6);
+	pp =	$("#tela").val();
+	}
+	else if (save == 7) { $("#tela").val(pp + 7);
+	pp =	$("#tela").val();
+	}
+	else if (save == 8) { $("#tela").val(pp + 8);
+	pp =	$("#tela").val();
+	}
+	else if (save == 9) { $("#tela").val(pp + 9);
+	pp =	$("#tela").val();
+	}
+	else if (save == 0) { $("#tela").val(pp + 0);
+	pp =	$("#tela").val();
+	}
+
+
+
+	
+		
+  });
+
+$("#tela").val('0');
+	pp = 0 ;
+	save = 0;
+	die = 0;
+
+	
+});
+
+</script>
+
+
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+	<p> some = func</p>
+
+<div id="todo">
+
+<div class="calculadora">
+	<input id="tela" class="tela" value="9"/>
+	
+	
+	<div class="butao">
+	<button id="clear"  value="">CL</button>    
+    <br>
+	
+    <button class="digit ad" id="1" value="1">1</button>
+    <button class="digit ad" id="2" value="2">2</button>
+    <button class="digit ad" id="3" value="3">3</button>
+    <button id="ponto" class="ad" value="">.</button>
+    <br>
+    <button class="digit ad" id="4" value="4">4</button>
+    <button class="digit ad" id="5" value="5">5</button>
+    <button class="digit ad" id="6" value="6">6</button>
+    <button id="sub" class="ad" value="-">-</button>
+    <br>
+    <button class="digit ad" id="7" value="7">7</button>
+    <button class="digit ad" id="8" value="8">8</button>
+    <button class="digit ad" id="9" value="9">9</button>
+    <button id="soma" class="ad" value="+">+</button>
+    <br>
+    <button id="divide" class="ad" value="/">÷</button>
+    <button class="digit ad" id="0" value="0">0</button>
+    <button id="multiplica" class="ad" value="*">*</button>
+    <button id="igual" class="ad" value="=">=</button>
+    </div>
+ 
+</div>
+
+</div>
+
+
+</body>

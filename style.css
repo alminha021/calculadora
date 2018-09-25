@@ -1,0 +1,85 @@
+
+h5 {
+
+
+width:160px;
+}
+
+body {
+background:color #9370DB;
+}
+
+.butao{
+	
+      width: 120px;
+    margin: 0px;
+    background-color: #472088;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+}
+
+
+
+#todo{
+	width:140px;
+	height:auto;
+	margin:3% auto;
+	background-color: #9370DB;
+	
+}
+
+.calculatodora{
+	width:160px;
+	height:auto;
+	margin:3% auto;
+	background-color: #9370DB;
+	border-radius:20px;
+
+}
+
+#tela {
+background-color: #66CDAA;
+width:137px;
+height:auto;
+margin:3% auto;
+}
+
+#soma , #divide, #sub, #multiplica {
+	background-color: #199;
+}
+
+#clear {
+	background-color: #e48617;
+	border-radius: 100%;
+	padding: 10px 10px;
+	text-align:center;
+	margin: 10px 10px 10px 35px;
+}
+
+#igual {
+	background-color: #00CED1;
+}
+
+#ponto {
+	background-color: #11a111;
+}
+
+
+
+.digit{
+background-color: #00a86b; 
+
+}
+.ad{
+    padding-top: 12px;
+    padding-right: 4px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    display: inline-block;
+    opacity: 0.9;
+    width: 26px;
+	
+}
